@@ -1,0 +1,5 @@
+#import <Foundation/Foundation.h>
+@interface PodsDummy_Pods_CustomTransitionAnimationDemo_CustomTransitionAnimationDemoUITests : NSObject
+@end
+@implementation PodsDummy_Pods_CustomTransitionAnimationDemo_CustomTransitionAnimationDemoUITests
+@end

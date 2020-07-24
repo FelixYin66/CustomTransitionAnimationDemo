@@ -1,0 +1,16 @@
+PODS:
+  - EasyTransitions (0.6.0)
+
+DEPENDENCIES:
+  - EasyTransitions
+
+SPEC REPOS:
+  https://mirrors.tuna.tsinghua.edu.cn/git/CocoaPods/Specs.git:
+    - EasyTransitions
+
+SPEC CHECKSUMS:
+  EasyTransitions: b708a8d56327f21614992f0f1e903ca771a4fdc1
+
+PODFILE CHECKSUM: 1453d6184199ab25594b1640d71c231ddbcb9958
+
+COCOAPODS: 1.8.4

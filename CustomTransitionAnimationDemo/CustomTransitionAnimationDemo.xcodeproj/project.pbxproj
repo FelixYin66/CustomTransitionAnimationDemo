@@ -3,10 +3,15 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		253881AE0F1622A92F04C41B /* Pods_CustomTransitionAnimationDemo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A57CB736BA61D7854F6EFD7C /* Pods_CustomTransitionAnimationDemo.framework */; };
+		3C0CEB298C7A7D05AF272607 /* Pods_CustomTransitionAnimationDemo_CustomTransitionAnimationDemoUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1A64222A3FDA65A0D36AAC67 /* Pods_CustomTransitionAnimationDemo_CustomTransitionAnimationDemoUITests.framework */; };
+		65D28A909F94C752F4F949B9 /* Pods_CustomTransitionAnimationDemoTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B0824FE9AB537A4C8EA826A9 /* Pods_CustomTransitionAnimationDemoTests.framework */; };
+		862FFF6E24CACC78008988DB /* CollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 862FFF6D24CACC78008988DB /* CollectionViewCell.swift */; };
+		865D423724CADB8A002C8F92 /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 865D423624CADB8A002C8F92 /* DetailViewController.swift */; };
 		86ACEB1324C823DD00401F92 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86ACEB1224C823DD00401F92 /* AppDelegate.swift */; };
 		86ACEB1524C823DD00401F92 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86ACEB1424C823DD00401F92 /* SceneDelegate.swift */; };
 		86ACEB1724C823DD00401F92 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86ACEB1624C823DD00401F92 /* ViewController.swift */; };
@@ -35,6 +40,12 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		14F3E5ADF3EECE7BA0386216 /* Pods-CustomTransitionAnimationDemo-CustomTransitionAnimationDemoUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CustomTransitionAnimationDemo-CustomTransitionAnimationDemoUITests.debug.xcconfig"; path = "Target Support Files/Pods-CustomTransitionAnimationDemo-CustomTransitionAnimationDemoUITests/Pods-CustomTransitionAnimationDemo-CustomTransitionAnimationDemoUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		1A64222A3FDA65A0D36AAC67 /* Pods_CustomTransitionAnimationDemo_CustomTransitionAnimationDemoUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CustomTransitionAnimationDemo_CustomTransitionAnimationDemoUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		44575AB2E0A01F564276BAB3 /* Pods-CustomTransitionAnimationDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CustomTransitionAnimationDemo.release.xcconfig"; path = "Target Support Files/Pods-CustomTransitionAnimationDemo/Pods-CustomTransitionAnimationDemo.release.xcconfig"; sourceTree = "<group>"; };
+		4E9729B4DBB571D53BE5B559 /* Pods-CustomTransitionAnimationDemo-CustomTransitionAnimationDemoUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CustomTransitionAnimationDemo-CustomTransitionAnimationDemoUITests.release.xcconfig"; path = "Target Support Files/Pods-CustomTransitionAnimationDemo-CustomTransitionAnimationDemoUITests/Pods-CustomTransitionAnimationDemo-CustomTransitionAnimationDemoUITests.release.xcconfig"; sourceTree = "<group>"; };
+		862FFF6D24CACC78008988DB /* CollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CollectionViewCell.swift; sourceTree = "<group>"; };
+		865D423624CADB8A002C8F92 /* DetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
 		86ACEB0F24C823DD00401F92 /* CustomTransitionAnimationDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CustomTransitionAnimationDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		86ACEB1224C823DD00401F92 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		86ACEB1424C823DD00401F92 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -49,6 +60,11 @@
 		86ACEB3024C823DE00401F92 /* CustomTransitionAnimationDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CustomTransitionAnimationDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		86ACEB3424C823DE00401F92 /* CustomTransitionAnimationDemoUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomTransitionAnimationDemoUITests.swift; sourceTree = "<group>"; };
 		86ACEB3624C823DE00401F92 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8F07B7CEF713DF327885C97A /* Pods-CustomTransitionAnimationDemoTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CustomTransitionAnimationDemoTests.release.xcconfig"; path = "Target Support Files/Pods-CustomTransitionAnimationDemoTests/Pods-CustomTransitionAnimationDemoTests.release.xcconfig"; sourceTree = "<group>"; };
+		A57CB736BA61D7854F6EFD7C /* Pods_CustomTransitionAnimationDemo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CustomTransitionAnimationDemo.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		A784F51DA1294B0BD021C08F /* Pods-CustomTransitionAnimationDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CustomTransitionAnimationDemo.debug.xcconfig"; path = "Target Support Files/Pods-CustomTransitionAnimationDemo/Pods-CustomTransitionAnimationDemo.debug.xcconfig"; sourceTree = "<group>"; };
+		A9A1BB2308B2636D24826145 /* Pods-CustomTransitionAnimationDemoTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CustomTransitionAnimationDemoTests.debug.xcconfig"; path = "Target Support Files/Pods-CustomTransitionAnimationDemoTests/Pods-CustomTransitionAnimationDemoTests.debug.xcconfig"; sourceTree = "<group>"; };
+		B0824FE9AB537A4C8EA826A9 /* Pods_CustomTransitionAnimationDemoTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CustomTransitionAnimationDemoTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +72,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				253881AE0F1622A92F04C41B /* Pods_CustomTransitionAnimationDemo.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -63,6 +80,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				65D28A909F94C752F4F949B9 /* Pods_CustomTransitionAnimationDemoTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -70,12 +88,31 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3C0CEB298C7A7D05AF272607 /* Pods_CustomTransitionAnimationDemo_CustomTransitionAnimationDemoUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		4CBCBD275DB9A549C407D4AF /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				A57CB736BA61D7854F6EFD7C /* Pods_CustomTransitionAnimationDemo.framework */,
+				1A64222A3FDA65A0D36AAC67 /* Pods_CustomTransitionAnimationDemo_CustomTransitionAnimationDemoUITests.framework */,
+				B0824FE9AB537A4C8EA826A9 /* Pods_CustomTransitionAnimationDemoTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		862FFF6C24CACC69008988DB /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				862FFF6D24CACC78008988DB /* CollectionViewCell.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
 		86ACEB0624C823DD00401F92 = {
 			isa = PBXGroup;
 			children = (
@@ -83,6 +120,8 @@
 				86ACEB2824C823DE00401F92 /* CustomTransitionAnimationDemoTests */,
 				86ACEB3324C823DE00401F92 /* CustomTransitionAnimationDemoUITests */,
 				86ACEB1024C823DD00401F92 /* Products */,
+				E4C2B9E2A0D58D8493BA03EC /* Pods */,
+				4CBCBD275DB9A549C407D4AF /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -99,6 +138,7 @@
 		86ACEB1124C823DD00401F92 /* CustomTransitionAnimationDemo */ = {
 			isa = PBXGroup;
 			children = (
+				862FFF6C24CACC69008988DB /* Views */,
 				86ACEB1224C823DD00401F92 /* AppDelegate.swift */,
 				86ACEB1424C823DD00401F92 /* SceneDelegate.swift */,
 				86ACEB1624C823DD00401F92 /* ViewController.swift */,
@@ -106,6 +146,7 @@
 				86ACEB1B24C823DE00401F92 /* Assets.xcassets */,
 				86ACEB1D24C823DE00401F92 /* LaunchScreen.storyboard */,
 				86ACEB2024C823DE00401F92 /* Info.plist */,
+				865D423624CADB8A002C8F92 /* DetailViewController.swift */,
 			);
 			path = CustomTransitionAnimationDemo;
 			sourceTree = "<group>";
@@ -128,6 +169,19 @@
 			path = CustomTransitionAnimationDemoUITests;
 			sourceTree = "<group>";
 		};
+		E4C2B9E2A0D58D8493BA03EC /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				A784F51DA1294B0BD021C08F /* Pods-CustomTransitionAnimationDemo.debug.xcconfig */,
+				44575AB2E0A01F564276BAB3 /* Pods-CustomTransitionAnimationDemo.release.xcconfig */,
+				14F3E5ADF3EECE7BA0386216 /* Pods-CustomTransitionAnimationDemo-CustomTransitionAnimationDemoUITests.debug.xcconfig */,
+				4E9729B4DBB571D53BE5B559 /* Pods-CustomTransitionAnimationDemo-CustomTransitionAnimationDemoUITests.release.xcconfig */,
+				A9A1BB2308B2636D24826145 /* Pods-CustomTransitionAnimationDemoTests.debug.xcconfig */,
+				8F07B7CEF713DF327885C97A /* Pods-CustomTransitionAnimationDemoTests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -135,9 +189,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 86ACEB3924C823DE00401F92 /* Build configuration list for PBXNativeTarget "CustomTransitionAnimationDemo" */;
 			buildPhases = (
+				68FDB1133489CF2994BBCF51 /* [CP] Check Pods Manifest.lock */,
 				86ACEB0B24C823DD00401F92 /* Sources */,
 				86ACEB0C24C823DD00401F92 /* Frameworks */,
 				86ACEB0D24C823DD00401F92 /* Resources */,
+				794AA938C4A4A84B4EA3B249 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -152,6 +208,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 86ACEB3C24C823DE00401F92 /* Build configuration list for PBXNativeTarget "CustomTransitionAnimationDemoTests" */;
 			buildPhases = (
+				56FDD7E80567912FFB6913E0 /* [CP] Check Pods Manifest.lock */,
 				86ACEB2124C823DE00401F92 /* Sources */,
 				86ACEB2224C823DE00401F92 /* Frameworks */,
 				86ACEB2324C823DE00401F92 /* Resources */,
@@ -170,9 +227,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 86ACEB3F24C823DE00401F92 /* Build configuration list for PBXNativeTarget "CustomTransitionAnimationDemoUITests" */;
 			buildPhases = (
+				4632A16A628B6C2E4634B4BE /* [CP] Check Pods Manifest.lock */,
 				86ACEB2C24C823DE00401F92 /* Sources */,
 				86ACEB2D24C823DE00401F92 /* Frameworks */,
 				86ACEB2E24C823DE00401F92 /* Resources */,
+				6A3799839260BC2D34742ED9 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -253,6 +312,109 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		4632A16A628B6C2E4634B4BE /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-CustomTransitionAnimationDemo-CustomTransitionAnimationDemoUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		56FDD7E80567912FFB6913E0 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-CustomTransitionAnimationDemoTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		68FDB1133489CF2994BBCF51 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-CustomTransitionAnimationDemo-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		6A3799839260BC2D34742ED9 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-CustomTransitionAnimationDemo-CustomTransitionAnimationDemoUITests/Pods-CustomTransitionAnimationDemo-CustomTransitionAnimationDemoUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-CustomTransitionAnimationDemo-CustomTransitionAnimationDemoUITests/Pods-CustomTransitionAnimationDemo-CustomTransitionAnimationDemoUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-CustomTransitionAnimationDemo-CustomTransitionAnimationDemoUITests/Pods-CustomTransitionAnimationDemo-CustomTransitionAnimationDemoUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		794AA938C4A4A84B4EA3B249 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-CustomTransitionAnimationDemo/Pods-CustomTransitionAnimationDemo-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-CustomTransitionAnimationDemo/Pods-CustomTransitionAnimationDemo-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-CustomTransitionAnimationDemo/Pods-CustomTransitionAnimationDemo-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		86ACEB0B24C823DD00401F92 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
@@ -260,6 +422,8 @@
 			files = (
 				86ACEB1724C823DD00401F92 /* ViewController.swift in Sources */,
 				86ACEB1324C823DD00401F92 /* AppDelegate.swift in Sources */,
+				865D423724CADB8A002C8F92 /* DetailViewController.swift in Sources */,
+				862FFF6E24CACC78008988DB /* CollectionViewCell.swift in Sources */,
 				86ACEB1524C823DD00401F92 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -433,13 +597,14 @@
 		};
 		86ACEB3A24C823DE00401F92 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = A784F51DA1294B0BD021C08F /* Pods-CustomTransitionAnimationDemo.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = SR52437D77;
 				INFOPLIST_FILE = CustomTransitionAnimationDemo/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -453,13 +618,14 @@
 		};
 		86ACEB3B24C823DE00401F92 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 44575AB2E0A01F564276BAB3 /* Pods-CustomTransitionAnimationDemo.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = SR52437D77;
 				INFOPLIST_FILE = CustomTransitionAnimationDemo/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -473,6 +639,7 @@
 		};
 		86ACEB3D24C823DE00401F92 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = A9A1BB2308B2636D24826145 /* Pods-CustomTransitionAnimationDemoTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -495,6 +662,7 @@
 		};
 		86ACEB3E24C823DE00401F92 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8F07B7CEF713DF327885C97A /* Pods-CustomTransitionAnimationDemoTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -517,6 +685,7 @@
 		};
 		86ACEB4024C823DE00401F92 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 14F3E5ADF3EECE7BA0386216 /* Pods-CustomTransitionAnimationDemo-CustomTransitionAnimationDemoUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -537,6 +706,7 @@
 		};
 		86ACEB4124C823DE00401F92 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4E9729B4DBB571D53BE5B559 /* Pods-CustomTransitionAnimationDemo-CustomTransitionAnimationDemoUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
