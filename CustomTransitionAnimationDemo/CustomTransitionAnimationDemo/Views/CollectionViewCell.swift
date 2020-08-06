@@ -24,7 +24,7 @@ class CollectionViewCell: UICollectionViewCell {
         //运行在iPhone 6plus iOS 10.4系统上，btn没有设置标题时 UIButton当做一个普通View,添加圆角效果后 不会出现离屏渲染。当添加标题及圆角效果会出现离屏渲染效果
         backgroundView.setTitle("BackgroundView", for: UIControl.State.normal);
         backgroundView.layer.cornerRadius = 10;
-        backgroundView.layer.masksToBounds = true;
+//        backgroundView.layer.masksToBounds = true;
         backgroundView.backgroundColor = UIColor.systemPink;
         self.contentView.addSubview(backgroundView);
         
