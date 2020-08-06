@@ -33,6 +33,20 @@ class ViewController: UIViewController {
         collectionView.backgroundColor = UIColor.white;
         return collectionView;
     }();
+    
+    lazy var tableView:UITableView = {
+        let rect = CGRect(x: 0, y: 0, width: self.view.frame.size.width, height: self.view.frame.size.height);
+        let tableView = UITableView(frame: rect, style: UITableView.Style.plain);
+        tableView.register(TableViewCell.classForCoder(), forCellReuseIdentifier: "Cell");
+        tableView.delegate = self;
+        tableView.dataSource = self;
+        tableView.separatorStyle = UITableViewCell.SeparatorStyle.none;
+        
+        return tableView;
+    }()
+    
+    lazy var testView = UIView();
+    
 
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -42,6 +56,12 @@ class ViewController: UIViewController {
     override func viewWillLayoutSubviews() {
         super.viewWillLayoutSubviews();
         self.view.addSubview(self.collectionView);
+//        self.view.addSubview(self.tableView);
+//        self.view.addSubview(self.testView);
+//        testView.frame = CGRect(x: 100, y: 100, width: 150, height: 50);
+//        testView.backgroundColor = UIColor.red;
+//        testView.layer.cornerRadius = 10;
+//        testView.layer.masksToBounds = true;
     }
 
 
@@ -95,3 +115,22 @@ extension ViewController:UICollectionViewDelegate,UICollectionViewDataSource{
     
 }
 
+extension ViewController:UITableViewDataSource,UITableViewDelegate{
+    func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
+        return 10;
+    }
+    
+    func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
+        let cell = tableView.dequeueReusableCell(withIdentifier: "Cell")!;
+        return cell;
+    }
+    
+    func tableView(_ tableView: UITableView, heightForRowAt indexPath: IndexPath) -> CGFloat {
+        return 412;
+    }
+    
+    func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
+        
+    }
+    
+}
